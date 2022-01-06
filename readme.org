@@ -1,5 +1,3 @@
-#+title: book scraper
-
-* Book scraper
+#+title: Book scraper
 
 Interesting books from interesting people.
