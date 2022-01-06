@@ -1,0 +1,28 @@
+- title: Fundamental Algorithms
+  author: Donald Knuth
+- title: Structured Programming
+  author: O.-J. Dahl, E. W. Dijkstra and C. A. R. Hoare
+- title: Structured Analysis and System Specification
+  author: Tom DeMarco
+- title: Object Oriented Software Construction
+  author: Bertrand Meyer
+- title: Object Oriented Software Engineering
+  author: Ivar Jacboson, et. al.
+- title: Design Patterns
+  author: Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
+- title: Structure and Interpretation of Computer Programs (SICP)
+  author: Harold Abelson and Gerald Jay Sussman with Julie Sussman
+- title: Analysis Patterns
+  author: Martin Fowler
+- title: Extreme Programming Explained (1st ed.)
+  author: Kent Beck
+- title: Refactoring
+  author: Martin Fowler
+- title: The Pragmatic Programmer
+  author: Andrew Hunt, David Thomas
+- title: Domain Driven Design
+  author: Eric Evans
+- title: Working Effectively with Legacy Code
+  author: Michael Feathers
+- title: The Annotated Turing
+  author: Charles Petzold
