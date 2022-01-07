@@ -4,10 +4,7 @@
             [clj-yaml.core :as yaml]
             [clojure.java.io :refer [writer]]))
 
-(defn log [msg]
-  (println (str "-> " msg)))
-
-(log "Scraping books from CleanCoder website...")
+(println "Scraping books from CleanCoder website...\n")
 
 (def result (->> "http://cleancoder.com/books"
                  slurp
@@ -23,6 +20,8 @@
                         {:title title
                          :author author}))))
 (def output-path "out/books.yaml")
-(log (str "Saving results in " output-path "..."))
+
+(println (str "Saving results in " output-path "..."))
+
 (with-open [w (writer "out/books.yaml")]
   (.write w (yaml/generate-string result :dumper-options {:flow-style :block})))
